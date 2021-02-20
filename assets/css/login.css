@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.container{
+    font-family: Nunito Sans;
+    width: 80%;
+    height: 80%;
+}
+.form-container {
+    margin-left: 25%;
+}
+.form-container p {
+    font-family: 'AirbnbCereal App Medium';
+}
+
+.text2 {
+    width: 320px;
+    margin-top: 100px;
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.text3 {
+    line-height: 22px;
+    margin-top: 30px;
+    color: rgba(58, 61, 66, 0.6);
+    font-size: 20px;
+}
+
+.text4 {
+    width: 380px;
+    line-height: 22px;
+    margin-top: 30px;
+    color: rgba(58, 61, 66, 0.6);
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+
+.text5 {
+    width: 320px;
+    color: #3A3D42;
+    font-size: 20px;
+}
+
+.success {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.login-input {
+    border-bottom: 1.5px solid rgba(169, 169, 169, 0.6);
+    color: #D0CCCC;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5px;
+    margin-top: 50px;
+}
+
+#email,
+#password,
+#username,
+#fullname, #text {
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    display: block;
+    font-size: 14px;
+    margin-left: 20px;
+    font-family: 'AirbnbCereal App Medium';
+    color: #A9A9A9 80%;
+    outline: none;
+}
+
+.forgot-password{
+    font-size: 14px;
+    width: 380px;
+    text-align: right;
+    margin-top: 30px;
+    margin-left: 150px;
+    color: rgba(58, 61, 66, 0.8);
+}
+
+.btn-1 {
+    border: 1px solid #d0cccc;
+    color: #D0CCCC;
+    font-size: 18px;
+    background: red;
+    color: #fff;
+    border-radius: 12px;
+    display: block;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 70px;
+    width: 400px;
+    margin-left: 28%;
+}
+
+.sign-up {
+    font-family: 'AirbnbCereal App Medium';
+    color: rgba(58, 61, 66, 0.8);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sign-up a {
+    color: red;   
+}
+
+.eye {
+    cursor: pointer;
+}
+
+input[type=number] {
+    height: 60px;
+    width: 48px;
+    font-size: 30px;
+    color: #3A3D42;
+    text-align: center;
+    margin-right: 10px;
+    border: 1px solid rgba(169, 169, 169, 0.6);
+    box-sizing: border-box;
+    box-shadow: 0px 10px 75px rgba(147, 147, 147, 0.1);
+    border-radius: 10px;
+
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+    .pict-container {
+        display: none;
+    }
+    form {
+        width: 100%;
+        margin-left: 0;
+    }
+    .form-container {
+        margin: 0px 5px 0px 5px;
+    }
+
+}
